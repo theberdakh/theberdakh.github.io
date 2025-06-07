@@ -279,8 +279,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-paginate
-  jekyll-remote-theme
+  jekyll-feed
   tale
 
 BUNDLED WITH
