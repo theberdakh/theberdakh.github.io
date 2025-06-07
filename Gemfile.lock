@@ -282,7 +282,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-remote-theme
   tale
-  webrick
 
 BUNDLED WITH
    2.6.7
