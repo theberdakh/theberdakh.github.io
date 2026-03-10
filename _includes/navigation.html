@@ -1,11 +1,4 @@
-<nav class="nav">
-    <div class="nav-container">
-        <a href="{{ site.baseurl }}/">
-            <h2 class="nav-title">{{ site.title }}</h2>
-        </a>
-        <ul>
-            <li><a href="{{ site.baseurl }}/">Postlar</a></li>
-            <li><a href="{{ '/about' | prepend: site.baseurl }}">Avtor</a></li>
-        </ul>
-    </div>
+<nav class="site-nav">
+  <a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active"{% endif %}>Posts</a>
+  <a href="{{ '/resume' | prepend: site.baseurl }}" {% if page.url contains 'resume' %}class="active"{% endif %}>CV</a>
 </nav>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ site.baseurl }}/">Berdakh Tlepov</a>
+      <nav class="site-nav">
+        <a href="{{ site.baseurl }}/"        {% if page.url == '/' %}class="active"{% endif %}>Posts</a>
+        <a href="{{ '/resume' | prepend: site.baseurl }}" {% if page.url contains 'resume' %}class="active"{% endif %}>CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/theberdakh">LinkedIn</a>
+        <a href="https://github.com/theberdakh">GitHub</a>
+        <a href="https://x.com/theberdakh">X</a>
+        <a href="https://t.me/theberdakh">Telegram</a>
+        <a href="https://instagram.com/theberdakh">Instagram</a>
+      </div>
+      <p>© {{ 'now' | date: "%Y" }} Berdakh Tlepov</p>
+    </div>
+  </footer>
+
+</body>
+</html>

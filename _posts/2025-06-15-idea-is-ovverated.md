@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Ideya áhmiyeti 
+title: Ideya áhmiyeti
 date: 2024-05-07 13:30:00 +0500
+published: false
 ---
 
 Kóp adam artıqsha baxa beretin nárselerdiń biri - ideya. Yáki ideyanıń orginallıǵı. Sonday túsiniklerdiń biri ideya zor bolsa, onı jasırıw kerek. Bolmasa basqalar ideyańdı alıp rawajlanıp ketedi, óziń qalıp qoyatın ekenseń. Yáki basqalar islegen ideya bolsa, onı islemew kerek dep oylaydı.
