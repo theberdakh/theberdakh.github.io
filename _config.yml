@@ -1,7 +1,7 @@
-title: Berdax Tlepov
-email: berdakh2024@gmail.com
-description: "Programmist balanıń pikirleri"
-url: "https://berdax.github.io"
+title: Berdakh Tlepov
+email: theberdakh@proton.me
+description: "Software developer based in Nukus, Uzbekistan."
+url: "https://berdakh.uz"
 baseurl: "" # Add this if deploying to a subdirectory; leave empty for root
 remote_theme: chesterhow/tale
 plugins:
