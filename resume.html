@@ -15,7 +15,7 @@ permalink: /cv
 <div class="cv-name">Berdakh Tlepov</div>
 <div class="cv-role">Java Backend Developer</div>
 <div class="cv-contacts">
-  <span>Nukus, Uzbekistan</span>
+  <span>Tashkent, Uzbekistan · Open to remote</span>
   <span>+998 94 148 05 15</span>
   <a href="mailto:theberdakh@proton.me">theberdakh@proton.me</a>
   <a href="https://linkedin.com/in/theberdakh">linkedin.com/in/theberdakh</a>
@@ -25,7 +25,7 @@ permalink: /cv
 
 <div class="cv-sec">
   <div class="cv-sec-label">Summary</div>
-  <p>I have about two years of professional software development experience — first as an Android developer at local startups, now as a backend developer at PanDev. The switch happened naturally: after spending time on the client side consuming APIs, I wanted to understand and own what happens on the server. Since October 2025 I've been working on PanDev Metrics — a 20-module Spring Boot 3 platform that collects developer activity across Git forges, issue trackers, and payment providers. Six months in and the depth of the work has moved fast.</p>
+  <p>Java Backend Developer with 2+ years building production software — Android at multiple startups, now backend at PanDev. Currently developing a 20-module Spring Boot 3 analytics platform that aggregates developer activity across 6+ third-party integrations (GitHub, GitLab, Bitbucket, Azure DevOps, Jira, Stripe). Focused on clean API design, reliable data pipelines, and tested, maintainable code.</p>
 </div>
 <div class="cv-divider"></div>
 
@@ -35,10 +35,11 @@ permalink: /cv
     <span class="sk">Languages</span><span class="sv">Java 17, Kotlin, SQL</span>
     <span class="sk">Frameworks</span><span class="sv">Spring Boot 3, Spring MVC, Spring Data JPA, Spring Security, Hibernate, Spring AI</span>
     <span class="sk">Databases</span><span class="sv">PostgreSQL, Redis, Flyway</span>
-    <span class="sk">API &amp; Docs</span><span class="sv">REST, OpenAPI 3 / Swagger (SpringDoc), OkHttp</span>
+    <span class="sk">API &amp; Docs</span><span class="sv">RESTful API Design, OpenAPI 3 / Swagger (SpringDoc), OkHttp</span>
     <span class="sk">Security</span><span class="sv">JWT, OAuth2, RBAC</span>
-    <span class="sk">Testing</span><span class="sv">JUnit 5, Testcontainers, JaCoCo</span>
-    <span class="sk">Build &amp; CI/CD</span><span class="sv">Maven (multi-module), GraalVM, SonarQube, Docker, Git</span>
+    <span class="sk">Testing</span><span class="sv">JUnit 5, Testcontainers, Integration Testing, JaCoCo</span>
+    <span class="sk">Build &amp; CI/CD</span><span class="sv">Maven (multi-module), Docker, GitHub Actions, SonarQube, GraalVM, Git</span>
+    <span class="sk">Architecture</span><span class="sv">Modular Monolith, Multi-module Architecture, SOLID, MVVM</span>
     <span class="sk">Integrations</span><span class="sv">GitHub API, GitLab API, Bitbucket API, Azure DevOps, Jira, Stripe, Vertex AI (Gemini)</span>
     <span class="sk">Other</span><span class="sv">Lombok, iText7, JGit, Vaadin 24, Agile / Scrum</span>
   </div>
@@ -51,59 +52,34 @@ permalink: /cv
   <div class="job">
     <div class="job-top"><span class="job-co">PanDev</span><span class="job-dt">October 2025 – Present</span></div>
     <div class="job-title">Java Backend Developer</div>
-    <div class="job-desc">PanDev Metrics — a 20-module Spring Boot 3 platform collecting developer activity from Git forges, issue trackers, and payment providers.</div>
+    <div class="job-desc">PanDev Metrics — a 20-module Spring Boot 3 platform with 490+ endpoints serving 300+ developers, tracking activity across IDEs, Git forges, and issue trackers.</div>
     <ul>
-      <li>Built and maintained analytics REST API endpoints — activity breakdowns, project history, issue-based views, and employee reports with sorting and filtering.</li>
-      <li>Worked on user and department management: RBAC role endpoints (GET/PUT/DELETE), HR Admin restrictions, and fixing soft-delete so deleted departments could be recreated.</li>
-      <li>Implemented programming language detection from file extensions (Linguist-style mapping) and language grouping for analytics.</li>
-      <li>Fixed several slow or duplicate-data queries in the analytics layer and wrote unit tests for the features I owned.</li>
-      <li>Handled user photo thumbnail generation and avatar fallback logic.</li>
+      <li>Developed analytics REST endpoints for commit activity, project history, and employee reports, serving 300+ developers across 6 integrated platforms.</li>
+      <li>Fixed soft-delete logic for departments, allowing reactivation of deleted entities by name without data corruption.</li>
+      <li>Implemented Linguist-style language detection covering 860+ file extensions across 396 programming languages.</li>
+      <li>Optimized all-time analytics with 5 CTE-based native SQL queries over materialized views, eliminating N+1 patterns and duplicate results.</li>
+      <li>Built user avatar pipeline with server-side thumbnail generation and initials-based fallback.</li>
     </ul>
   </div>
   <div class="cv-divider"></div>
 
   <div class="job">
-    <div class="job-top"><span class="job-co">Aral Hub</span><span class="job-dt">November 2024 – April 2025</span></div>
+    <div class="job-top"><span class="job-co">Karsoft IT Solutions · SimSim Technology Co. · Aral Hub</span><span class="job-dt">February 2023 – April 2025</span></div>
     <div class="job-title">Android Developer</div>
     <ul>
-      <li>Shipped an IoT-connected app to Google Play that talked to hardware over REST and handled real-time device data coming in from the field.</li>
-      <li>Architecture was MVVM with a Repository layer; API calls went through OkHttp and Retrofit.</li>
-    </ul>
-  </div>
-  <div class="cv-divider"></div>
-
-  <div class="job">
-    <div class="job-top"><span class="job-co">SimSim Technology Co.</span><span class="job-dt">August 2023 – November 2024</span></div>
-    <div class="job-title">Android Developer</div>
-    <ul>
-      <li>Worked on two apps — one in logistics, one in edtech. Both went to production on Google Play.</li>
-      <li>Handled REST API integration, local Room persistence, and kept SOLID principles across the feature modules.</li>
-    </ul>
-  </div>
-  <div class="cv-divider"></div>
-
-  <div class="job">
-    <div class="job-top"><span class="job-co">Karsoft IT Solutions</span><span class="job-dt">February 2023 – August 2023</span></div>
-    <div class="job-title">Android Developer</div>
-    <ul>
-      <li>Contributed to commercial Android projects in a team environment, shipping features under a sprint-based workflow and version control with Git.</li>
+      <li>Shipped 3+ production Android apps across IoT, logistics, and edtech domains — all published to Google Play.</li>
+      <li>Built REST API integration layers, local Room persistence, and MVVM + Repository architecture across multiple products.</li>
+      <li>Worked in Agile teams across full sprint cycles from ticket pickup to code review and release.</li>
     </ul>
   </div>
 </div>
 <div class="cv-divider"></div>
 
-<div class="cv-sec">
-  <div class="cv-sec-label">Projects</div>
-  <div class="proj-name">From2 <span class="proj-tech">Kotlin · Android library</span></div>
-  <div class="proj-desc">Open-source Android library integrating the From-to.uz translation API — supports Karakalpak and 140+ other languages. Published on GitHub and used by other developers in the region.</div>
-  <div class="proj-link">github.com/theberdakh/From2</div>
-</div>
-<div class="cv-divider"></div>
 
 <div class="cv-sec">
   <div class="cv-sec-label">Education</div>
   <div class="edu-school">Nukus State Technical University</div>
-  <div class="edu-deg">Bachelor's Degree — Digital Economics</div>
+  <div class="edu-deg">Bachelor's Degree</div>
   <div class="edu-dt">September 2021 – July 2025</div>
 </div>
 <div class="cv-divider"></div>
